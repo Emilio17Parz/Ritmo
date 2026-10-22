@@ -1,0 +1,21 @@
+name: nube_music
+description: Canciones y playlists de YouTube a MP3 directamente en Android.
+publish_to: none
+version: 1.4.0+7
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+dependencies:
+  flutter_secure_storage: ^10.3.4
+  crypto: ^3.0.6
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  just_audio: ^0.10.5
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
